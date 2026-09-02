@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIM — Allo Bank Influencer Market</title>
+<link rel="stylesheet" href="css/aim-presentation.css">
+</head>
+<body>
+
+<!-- LEFT PROGRESS RAIL -->
+<nav class="rail" id="rail" aria-label="Presentation sections"></nav>
+
+<div class="deck" id="deck">
+
+<!-- 1 — COVER -->
+<section class="slide dark active">
+  <div class="hero-layout">
+    <div>
+      <div class="eyebrow"><span class="txt">Allo Bank · Growth Platform</span></div>
+      <h1>AIM</h1>
+      <p class="lead" style="font-family:var(--serif);font-size:var(--fs-body);font-weight:500;color:#fff;max-width:640px;line-height:1.25">From influencer activity to a measurable acquisition ecosystem.</p>
+      <p class="lead">Allo Bank Influencer Market — stakeholder working presentation for public-launch readiness.</p>
+      <div class="pillrow"><span class="pill">Employee Pilot</span><span class="pill">Creator Network</span><span class="pill">Ripple Effect</span></div>
+    </div>
+    <div class="hero-diagram hero-carousel" aria-label="AIM visual carousel">
+      <div class="hero-carousel-frame">
+        <button class="hero-carousel-arrow prev" type="button" aria-label="Previous image" onclick="heroCarouselPrev(event)">‹</button>
+        <div class="hero-carousel-media" id="heroCarouselMedia"></div>
+        <button class="hero-carousel-arrow next" type="button" aria-label="Next image" onclick="heroCarouselNext(event)">›</button>
+      </div>
+    </div>
+  </div>
+  <div class="footer">AIM · Stakeholder working presentation</div>
+</section>
+
+<!-- 2 — STRATEGIC IDEA -->
+<section class="slide">
+  <div class="eyebrow"><span class="num">01</span><span class="txt">The strategic idea</span><span class="act">Act I · Foundation</span></div>
+  <div class="split">
+    <div>
+      <h2>Influence is the input.<br><span class="accent">Acquisition is the outcome.</span></h2>
+      <p class="lead">AIM turns trusted employee, creator and community relationships into a trackable referral channel — with clear attribution, incentives, compliance controls and performance data.</p>
+      <div class="detail-row">
+        <div class="detail"><strong>Creator</strong><span>Reach, trust and distribution enter the Bank's acquisition engine.</span></div>
+        <div class="detail"><strong>Referral</strong><span>Every qualifying customer can be tied to one referral source.</span></div>
+        <div class="detail"><strong>Outcome</strong><span>Optimization moves from views alone to measurable new-customer acquisition.</span></div>
+      </div>
+    </div>
+    <div class="diagram" aria-hidden="true">
+      <svg viewBox="0 0 520 430">
+        <defs>
+          <marker id="aimFlowArrow2" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">
+            <path d="M0,0 L10,5 L0,10 Z" fill="#f38000"/>
+          </marker>
+        </defs>
+        <!-- unified flat geometric language: node + icon + label -->
+        <path d="M212 142 L130 94" stroke="#f38000" stroke-width="3" fill="none" marker-end="url(#aimFlowArrow2)"/>
+        <path d="M308 142 L390 94" stroke="#f38000" stroke-width="3" fill="none" marker-end="url(#aimFlowArrow2)"/>
+        <path d="M260 242 L260 294" stroke="#f38000" stroke-width="3" fill="none" marker-end="url(#aimFlowArrow2)"/>
+
+        <circle cx="260" cy="190" r="64" fill="#f9ca67"/>
+        <circle cx="260" cy="190" r="49" fill="#023047"/>
+        <text x="260" y="197" text-anchor="middle" font-family="Satoshi" font-size="20" font-weight="700" fill="#fff">AIM</text>
+
+        <circle cx="92" cy="72" r="45" fill="#cadfd8" stroke="#023047" stroke-width="2.5"/>
+        <circle cx="428" cy="72" r="45" fill="#ffaf03" stroke="#023047" stroke-width="2.5"/>
+        <circle cx="260" cy="338" r="45" fill="#f38000" stroke="#023047" stroke-width="2.5"/>
+
+        <circle cx="92" cy="64" r="12" fill="#023047"/>
+        <path d="M67 91 Q92 67 117 91" stroke="#023047" stroke-width="7" fill="none" stroke-linecap="round"/>
+        <path d="M407 72 h42 M428 51 v42" stroke="#023047" stroke-width="6" stroke-linecap="round"/>
+        <path d="M238 338 l13 13 l28 -33" stroke="#fff" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+        <text x="92" y="137" text-anchor="middle" font-family="Satoshi" font-size="20" font-weight="700" fill="#023047">Creator</text>
+        <text x="92" y="159" text-anchor="middle" font-family="Satoshi" font-size="14" fill="#54615d">Trust + reach</text>
+        <text x="428" y="137" text-anchor="middle" font-family="Satoshi" font-size="20" font-weight="700" fill="#023047">Referral</text>
+        <text x="428" y="159" text-anchor="middle" font-family="Satoshi" font-size="14" fill="#54615d">Attribution</text>
+        <text x="260" y="410" text-anchor="middle" font-family="Satoshi" font-size="20" font-weight="700" fill="#023047">Acquisition</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 3 — WHY AIM -->
+<section class="slide mint">
+  <div class="eyebrow"><span class="num">02</span><span class="txt">Why AIM</span><span class="act">Act I · Foundation</span></div>
+  <h2>The gap between content<br>and business outcome.</h2>
+  <div class="procflow" id="pf-why">
+    <div class="pf-step" data-detail="Reach and engagement are visible upstream, but on their own they don't confirm a new customer.">
+      <span class="pf-hint">tap</span><span class="pf-num">1</span>
+      <h4>Content</h4><p>Creator produces / shares</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="Social platforms, WhatsApp communities and personal networks all carry the message forward.">
+      <span class="pf-hint">tap</span><span class="pf-num">2</span>
+      <h4>Distribution</h4><p>Social + communities + personal networks</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="A unique code or link ties every click and application back to exactly one source.">
+      <span class="pf-hint">tap</span><span class="pf-num">3</span>
+      <h4>Referral</h4><p>Unique code / link attribution</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="This is the commercial outcome AIM is built to measure — not reach, not views.">
+      <span class="pf-hint">tap</span><span class="pf-num">4</span>
+      <h4>Activation</h4><p>Qualified PayLater customer</p>
+      <div class="pf-detail"></div>
+    </div>
+  </div>
+  <div class="split" style="margin-top:1.3rem;align-items:start">
+    <div>
+      <p class="note"><b>Core principle:</b> content and views are upstream signals. Qualified activation is the commercial outcome.</p>
+    </div>
+    <div class="detail-row" style="margin-top:0;grid-template-columns:1fr;gap:.6rem">
+      <div class="detail"><strong>Before AIM</strong><span>Activity can be visible without a clean link to the commercial outcome.</span></div>
+      <div class="detail"><strong>With AIM</strong><span>Referral identity travels through the acquisition journey.</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 — SCALE PATH -->
+<section class="slide dark">
+  <div class="eyebrow"><span class="num">03</span><span class="txt">Scale path</span><span class="act">Act II · Mechanics</span></div>
+  <h2>Employee pilot → public ecosystem</h2>
+  <div class="timeline">
+    <div class="phase"><h3>01 · Employee</h3><p>Validate platform, mechanics, controls and SOPs in a controlled environment.</p></div>
+    <div class="phase"><h3>02 · Creators</h3><p>Open AIM to financial creators and broader creator communities.</p></div>
+    <div class="phase"><h3>03 · Referral Network</h3><p>Move beyond content production into measurable referral distribution.</p></div>
+    <div class="phase"><h3>04 · Ripple Effect</h3><p>Any qualified AIM member can become a referral node — creator or not.</p></div>
+  </div>
+  <p class="note" style="margin-top:1.3rem">The employee program is the validation phase — <b>not the destination.</b></p>
+</section>
+
+<!-- 5 — REFERRAL ECONOMICS (interactive) -->
+<section class="slide">
+  <div class="eyebrow"><span class="num">04</span><span class="txt">Referral economics</span><span class="act">Act II · Mechanics</span></div>
+  <div class="split">
+    <div>
+      <h2>Simple enough to scale.<br>Strict enough to measure.</h2>
+      <div class="grid grid3" style="margin-top:1rem">
+        <div class="card"><div class="metric">Rp150K</div><h3 style="margin-top:.5rem">Creator reward</h3><p>Reward for each qualifying referral.</p></div>
+        <div class="card"><div class="metric">Rp100K</div><h3 style="margin-top:.5rem">Customer reward</h3><p>Paid once qualification is confirmed.</p></div>
+        <div class="card"><div class="metric">Rp250K</div><h3 style="margin-top:.5rem">Total incentive</h3><p>Combined acquisition incentive per qualifying customer.</p></div>
+      </div>
+      <p class="note">Customer qualification requires a unique first-time registration and approved PayLater credit limit of at least Rp1M.</p>
+    </div>
+    <div class="calc">
+      <h3>Try it — monthly qualifying referrals</h3>
+      <input type="range" id="econSlider" min="0" max="2000" step="10" value="300">
+      <div class="calc-row"><span class="lab">Qualifying referrals</span><span class="val" id="econCount">300</span></div>
+      <div class="calc-row"><span class="lab">Creator payout (×Rp150K)</span><span class="val" id="econCreator">—</span></div>
+      <div class="calc-row"><span class="lab">Customer payout (×Rp100K)</span><span class="val" id="econCustomer">—</span></div>
+      <div class="calc-row calc-total"><span class="lab">Total monthly incentive</span><span class="val" id="econTotal">—</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 6 — ATTRIBUTION -->
+<section class="slide mint">
+  <div class="eyebrow"><span class="num">05</span><span class="txt">Attribution &amp; source of truth</span><span class="act">Act II · Mechanics</span></div>
+  <h2>One journey. One referral attribution.</h2>
+  <div class="procflow" id="pf-attr">
+    <div class="pf-step" data-detail="If the two don't match, the creator record cannot be activated for payouts.">
+      <span class="pf-hint">tap</span><span class="pf-num">1</span>
+      <h4>AIM Creator</h4><p>Phone number matches Allo Bank account</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="One creator, one live code — this is what every downstream metric traces back to.">
+      <span class="pf-hint">tap</span><span class="pf-num">2</span>
+      <h4>Referral Code</h4><p>Generated and linked to creator</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="Entered at the moment of intent, so attribution never depends on a separate tracking click.">
+      <span class="pf-hint">tap</span><span class="pf-num">3</span>
+      <h4>Loan Application</h4><p>Customer inserts creator code</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="Core / Loan System status is the single source of truth AIM reads from — never a self-reported number.">
+      <span class="pf-hint">tap</span><span class="pf-num">4</span>
+      <h4>Core / Loan System</h4><p>Final qualifying outcome</p>
+      <div class="pf-detail"></div>
+    </div>
+  </div>
+  <p class="note" style="margin-top:1.3rem"><b>Privacy boundary:</b> AIM uses final aggregated qualifying outcomes where possible, rather than exposing customer-level PII.</p>
+</section>
+
+<!-- 7 — RISK BOUNDARY -->
+<section class="slide dark">
+  <div class="eyebrow"><span class="num">06</span><span class="txt">Risk boundary</span><span class="act">Act III · Controls</span></div>
+  <div class="split">
+    <div>
+      <h2>AIM tracks acquisition.<br><span class="gold-txt">BAU Risk protects the Bank.</span></h2>
+      <div class="grid grid3" style="margin-top:1rem">
+        <div class="card"><h3>Credit</h3><p>Existing Risk Engine / underwriting determines eligibility and credit limit.</p></div>
+        <div class="card"><h3>Fraud</h3><p>Existing Bank controls assess suspicious behavior and duplicate-account patterns.</p></div>
+        <div class="card"><h3>AIM's role</h3><p>Referral attribution, performance visibility and incentive calculation — not a parallel fraud engine.</p></div>
+      </div>
+      <p class="note">High referral volume is not inherently suspicious. Legitimate creators may distribute links through communities and personal networks.</p>
+    </div>
+    <div class="diagram" aria-hidden="true">
+      <svg viewBox="0 0 400 380">
+        <path d="M200 20 L340 75 V180 C340 270 280 330 200 360 C120 330 60 270 60 180 V75 Z" fill="rgba(255,255,255,.06)" stroke="rgba(255,255,255,.25)"/>
+        <path d="M200 55 L305 100 V180 C305 250 260 300 200 325 C140 300 95 250 95 180 V100 Z" fill="var(--mint)"/>
+        <rect x="150" y="148" width="100" height="88" rx="14" fill="var(--navy)"/>
+        <rect x="165" y="164" width="70" height="57" rx="8" fill="#fff"/>
+        <path d="M180 164 v-20 a20 20 0 0 1 40 0 v20" stroke="#023047" stroke-width="6" fill="none"/>
+        <circle cx="200" cy="192" r="9" fill="var(--deep)"/>
+        <rect x="98" y="255" width="204" height="62" rx="10" fill="rgba(2,48,71,.90)" stroke="rgba(255,255,255,.16)" stroke-width="1"/>
+        <text x="200" y="278" text-anchor="middle" font-family="Satoshi" font-size="20" font-weight="800" fill="#fff">Risk &amp; Fraud BAU</text>
+        <text x="200" y="302" text-anchor="middle" font-family="Satoshi" font-size="14" fill="rgba(255,255,255,.72)">Existing Bank controls</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 8 — CONTENT GOVERNANCE -->
+<section class="slide">
+  <div class="eyebrow"><span class="num">07</span><span class="txt">Content governance</span><span class="act">Act III · Controls</span></div>
+  <h2>Compliance is a gate,<br>not an authorship transfer.</h2>
+  <div class="procflow" id="pf-content">
+    <div class="pf-step" data-detail="The raw file, caption and any claims are submitted before anything goes live.">
+      <span class="pf-hint">tap</span><span class="pf-num">1</span>
+      <h4>Upload</h4><p>Creator submits raw content</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="Automated screening flags product claims, promotional language and missing disclosures.">
+      <span class="pf-hint">tap</span><span class="pf-num">2</span>
+      <h4>AI Check</h4><p>Claims / promotion / disclosure</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="A compliance reviewer makes the final call on anything the automated check surfaces.">
+      <span class="pf-hint">tap</span><span class="pf-num">3</span>
+      <h4>Human Check</h4><p>Compliance review</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="Approval is locked to the exact submitted file — any later edit falls outside it.">
+      <span class="pf-hint">tap</span><span class="pf-num">4</span>
+      <h4>Approved</h4><p>Exact submitted version</p>
+      <div class="pf-detail"></div>
+    </div>
+  </div>
+  <div class="grid grid3" style="margin-top:1.2rem">
+    <div class="card"><h3>Approval scope</h3><p>Approval applies to the submitted version; modified content is outside that approval.</p></div>
+    <div class="card"><h3>Creator responsibility</h3><p>Creators remain responsible for published content and audience interaction.</p></div>
+    <div class="card"><h3>Expiry control</h3><p>Content can be associated with promotion IDs and flagged when promotions expire.</p></div>
+  </div>
+</section>
+
+<!-- 9 — GOVERNANCE TABLE (interactive filter) -->
+<section class="slide mint">
+  <div class="eyebrow"><span class="num">08</span><span class="txt">Governance</span><span class="act">Act III · Controls</span></div>
+  <h2>Clear ownership across the operating chain.</h2>
+  <div class="filterbar">
+    <button class="filterbtn active" data-filter="all">All functions</button>
+    <button class="filterbtn" data-filter="strong">Strong coverage</button>
+    <button class="filterbtn" data-filter="partial">Needs RACI</button>
+  </div>
+  <div class="tablewrap" style="margin-top:.8rem">
+    <table id="govTable">
+      <tr><th>Function</th><th>Primary role</th><th>Coverage</th></tr>
+      <tr data-status="strong"><td>Legal &amp; Compliance</td><td>Content, conduct, retention, liability</td><td><span class="status strong">Strong</span></td></tr>
+      <tr data-status="strong"><td>Risk</td><td>Credit / fraud BAU boundary</td><td><span class="status strong">Strong</span></td></tr>
+      <tr data-status="strong"><td>Product</td><td>Referral mechanics &amp; journey</td><td><span class="status strong">Strong</span></td></tr>
+      <tr data-status="strong"><td>Marcom</td><td>Public content &amp; PR response</td><td><span class="status strong">Strong</span></td></tr>
+      <tr data-status="strong"><td>Digital Strategy</td><td>Acquisition economics &amp; performance</td><td><span class="status strong">Strong</span></td></tr>
+      <tr data-status="strong"><td>Finance</td><td>Reconciliation, budget, payout</td><td><span class="status strong">Strong</span></td></tr>
+      <tr data-status="partial"><td>Corporate Secretary / IT / Data / BU / Partnership</td><td>Governance, systems, data, coordination</td><td><span class="status partial">Partial — finalize RACI</span></td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- 10 — BUDGET GOVERNANCE (interactive) -->
+<section class="slide dark">
+  <div class="eyebrow"><span class="num">09</span><span class="txt">Budget governance</span><span class="act">Act III · Controls</span></div>
+  <div class="split">
+    <div>
+      <h2>Don't let a forecast<br>become a customer promise problem.</h2>
+      <p class="lead">Budget is projected from average daily AIM acquisition.</p>
+      <div class="grid grid3" style="margin-top:1rem">
+        <div class="detail"><strong>Actual &gt; forecast</strong><span>Do not auto-stop or cap incentives.</span></div>
+        <div class="detail"><strong>AIM PIC</strong><span>Request additional budget using actual volume as evidence.</span></div>
+        <div class="detail"><strong>Management lens</strong><span>Volume, budget, disputes, issues and recommendation.</span></div>
+      </div>
+    </div>
+    <div class="calc">
+      <h3>Forecast the monthly budget</h3>
+      <input type="range" id="budgetSlider" min="0" max="150" step="1" value="25">
+      <div class="calc-row"><span class="lab">Average daily acquisitions</span><span class="val" id="budgetCount">25</span></div>
+      <div class="calc-row"><span class="lab">Daily incentive (×Rp250K)</span><span class="val" id="budgetDaily">—</span></div>
+      <div class="calc-row calc-total"><span class="lab">Projected monthly budget</span><span class="val" id="budgetMonthly">—</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 11 — DISPUTES -->
+<section class="slide">
+  <div class="eyebrow"><span class="num">10</span><span class="txt">Disputes</span><span class="act">Act IV · Resolution</span></div>
+  <h2>One owner. One clear route.</h2>
+  <div class="procflow" id="pf-dispute">
+    <div class="pf-step" data-detail="Reaches the Bank through the normal customer-service front door — no separate hotline needed.">
+      <span class="pf-hint">tap</span><span class="pf-num">1</span>
+      <h4>Customer / Creator</h4><p>Raises payout or attribution issue</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="CS is a routing layer, not an investigator — the case moves straight to the accountable owner.">
+      <span class="pf-hint">tap</span><span class="pf-num">2</span>
+      <h4>Allo Bank CS</h4><p>Provides AIM PIC contact</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="One accountable person carries the case end to end, even when the fix sits in another team.">
+      <span class="pf-hint">tap</span><span class="pf-num">3</span>
+      <h4>AIM PIC</h4><p>Investigates and owns resolution</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="The PIC escalates to whichever function is the source blocker and stays accountable for closing it.">
+      <span class="pf-hint">tap</span><span class="pf-num">4</span>
+      <h4>Finance / Core / Risk</h4><p>Resolves source blocker</p>
+      <div class="pf-detail"></div>
+    </div>
+  </div>
+  <div class="grid grid3" style="margin-top:1.2rem">
+    <div class="card"><div class="metric">5–10</div><h3 style="margin-top:.5rem">Business-day SLA</h3><p>Working target for investigation and final response.</p></div>
+    <div class="card"><h3>Bank-side error</h3><p>AIM owns corrective resolution when the claimant complied and the failure is internal.</p></div>
+    <div class="card"><h3>Escalation</h3><p>Escalate to the function causing the blocker; vendor cases remain owned by AIM PIC.</p></div>
+  </div>
+</section>
+
+<!-- 12 — CORRECTIVE PAYMENT -->
+<section class="slide mint">
+  <div class="eyebrow"><span class="num">11</span><span class="txt">Corrective payment</span><span class="act">Act IV · Resolution</span></div>
+  <h2>Solution first. Governance always.</h2>
+  <div class="procflow" id="pf-corrective">
+    <div class="pf-step" data-detail="The PIC assembles proof the failure was Bank-side before anything moves to Finance.">
+      <span class="pf-hint">tap</span><span class="pf-num">1</span>
+      <h4>AIM PIC</h4><p>Confirms evidence + corrective basis</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="A second set of eyes checks the basis before money moves.">
+      <span class="pf-hint">tap</span><span class="pf-num">2</span>
+      <h4>Finance</h4><p>Validates and processes payment</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="Most cases resolve here — PIC and Finance agreeing is the normal path.">
+      <span class="pf-hint">tap</span><span class="pf-num">3</span>
+      <h4>Agreement?</h4><p>Yes → pay</p>
+      <div class="pf-detail"></div>
+    </div>
+    <div class="pf-arrow" aria-hidden="true"><svg viewBox="0 0 20 14"><path d="M0 7H16M10 1L18 7L10 13" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <div class="pf-step" data-detail="Reserved for the rare case where PIC and Finance cannot reach agreement.">
+      <span class="pf-hint">tap</span><span class="pf-num">4</span>
+      <h4>BoD</h4><p>Final authority only if PIC + Finance disagree</p>
+      <div class="pf-detail"></div>
+    </div>
+  </div>
+  <p class="note" style="margin-top:1.2rem">Qualified incentives remain payable even if a creator is later suspended or terminated. Discipline and earned incentive entitlement are separate decisions.</p>
+</section>
+
+<!-- 13 — RIPPLE EFFECT (loop diagram) -->
+<section class="slide dark">
+  <div class="eyebrow"><span class="num">12</span><span class="txt">The long-term vision</span><span class="act">Act V · Vision</span></div>
+  <div class="split">
+    <div>
+      <h2>Every customer can become<br>a node in the <span class="gold-txt">Ripple Effect.</span></h2>
+      <p class="lead">The destination is a scalable referral network where distribution compounds through trusted relationships — not a one-off influencer campaign.</p>
+      <div class="detail-row" style="grid-template-columns:1fr 1fr">
+        <div class="detail"><strong>Creator</strong><span>Creates influence</span></div>
+        <div class="detail"><strong>Member</strong><span>Earns from referrals</span></div>
+        <div class="detail"><strong>Customer</strong><span>Receives value</span></div>
+        <div class="detail"><strong>New Referrer</strong><span>Becomes the next node</span></div>
+      </div>
+    </div>
+    <div class="diagram" aria-hidden="true">
+      <svg viewBox="0 0 420 420">
+        <path d="M210 90 A160 160 0 0 1 330 210" stroke="var(--gold)" stroke-width="3" fill="none" stroke-dasharray="6 8" marker-end="url(#a3)"/>
+        <path d="M330 210 A160 160 0 0 1 210 330" stroke="var(--gold)" stroke-width="3" fill="none" stroke-dasharray="6 8" marker-end="url(#a3)"/>
+        <path d="M210 330 A160 160 0 0 1 90 210" stroke="var(--gold)" stroke-width="3" fill="none" stroke-dasharray="6 8" marker-end="url(#a3)"/>
+        <path d="M90 210 A160 160 0 0 1 210 90" stroke="var(--gold)" stroke-width="3" fill="none" stroke-dasharray="6 8" marker-end="url(#a3)"/>
+        <defs><marker id="a3" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="var(--gold)"/></marker></defs>
+        <circle cx="210" cy="210" r="46" fill="var(--gold)"/>
+        <text x="210" y="215" text-anchor="middle" font-family="Satoshi" font-weight="800" font-size="14" fill="#023047">AIM</text>
+        <g font-family="Satoshi" font-size="14" font-weight="700" text-anchor="middle">
+          <circle cx="210" cy="70" r="32" fill="var(--mint)"/><text x="210" y="74" fill="#023047">Creator</text>
+          <circle cx="350" cy="210" r="32" fill="var(--orange)"/><text x="350" y="214" fill="#023047">Member</text>
+          <circle cx="210" cy="350" r="32" fill="var(--deep)"/><text x="210" y="354" fill="#fff">Customer</text>
+          <circle cx="70" cy="210" r="32" fill="#fff"/><text x="70" y="214" fill="#023047">Referrer</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 14 — ALIGNMENT (interactive checklist) -->
+<section class="slide">
+  <div class="eyebrow"><span class="num">13</span><span class="txt">What needs alignment</span><span class="act">Act V · Vision</span></div>
+  <div class="split">
+    <div>
+      <h2>From a working model<br>to a launch-ready model.</h2>
+      <div class="checklist" id="alignList">
+        <div class="check" data-id="c1"><span class="checkbox"></span><div><h3>Public journey</h3><p>Finalize creator onboarding, referral and customer-facing flow.</p></div></div>
+        <div class="check" data-id="c2"><span class="checkbox"></span><div><h3>RACI</h3><p>Close ownership gaps across IT, Data, Corporate Secretary, BU and Partnership.</p></div></div>
+        <div class="check" data-id="c3"><span class="checkbox"></span><div><h3>Risk &amp; Legal validation</h3><p>Finalize serious-violation definitions, retention and expired-promotion handling.</p></div></div>
+        <div class="check" data-id="c4"><span class="checkbox"></span><div><h3>Performance &amp; budget</h3><p>Define the path from acquisition to quality/LTV and lock Finance reconciliation cadence.</p></div></div>
+        <div class="check" data-id="c5"><span class="checkbox"></span><div><h3>Management ask</h3><p>Align on public-launch direction, ownership and scale readiness.</p></div></div>
+      </div>
+      <div class="checkprog" id="alignProg">0 / 5 marked aligned in this session</div>
+    </div>
+    <div class="diagram" aria-hidden="true">
+      <svg viewBox="0 0 400 400">
+        <rect x="90" y="30" width="220" height="300" rx="24" fill="var(--cream)" stroke="var(--line)"/>
+        <rect x="120" y="65" width="150" height="26" rx="10" fill="var(--navy)"/>
+        <g stroke="var(--charcoal)" stroke-width="2.5" stroke-linecap="round">
+          <path d="M125 135 h18 M170 135 h95"/>
+          <path d="M125 175 h18 M170 175 h95"/>
+          <path d="M125 215 h18 M170 215 h95"/>
+          <path d="M125 255 h18 M170 255 h95"/>
+        </g>
+        <circle cx="330" cy="100" r="26" fill="var(--gold)"/>
+        <path d="M317 100 l9 9 l18 -21" stroke="#023047" stroke-width="4.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="330" cy="190" r="26" fill="var(--orange)"/>
+        <circle cx="330" cy="280" r="26" fill="var(--mint)"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 15 — CLOSING -->
+<section class="slide dark">
+  <div class="hero-layout">
+    <div>
+      <div class="eyebrow"><span class="num">14</span><span class="txt">Closing</span><span class="act">Act V · Vision</span></div>
+      <h1 style="font-size:var(--fs-display)">Build the channel.<br>Measure the outcome.<br><span class="gold-txt">Scale the network.</span></h1>
+      <p class="lead">AIM is designed to move Allo Bank from creator activity toward a measurable, governed and scalable acquisition ecosystem.</p>
+      <div class="pillrow"><span class="pill">Acquire</span><span class="pill">Attribute</span><span class="pill">Reward</span><span class="pill">Learn</span><span class="pill">Scale</span></div>
+    </div>
+    <div class="hero-diagram" aria-hidden="true">
+      <svg viewBox="0 0 420 420">
+        <circle cx="210" cy="210" r="170" fill="none" stroke="rgba(255,255,255,.1)"/>
+        <circle cx="210" cy="210" r="60" fill="var(--gold)"/>
+        <path d="M210 145 C150 100 90 115 65 175" stroke="rgba(255,255,255,.4)" stroke-width="2" fill="none"/>
+        <path d="M210 275 C270 320 330 305 355 245" stroke="rgba(255,255,255,.4)" stroke-width="2" fill="none"/>
+        <circle cx="65" cy="175" r="24" fill="var(--mint)"/>
+        <circle cx="355" cy="245" r="24" fill="var(--deep)"/>
+        <circle cx="210" cy="70" r="22" fill="var(--orange)"/>
+        <circle cx="210" cy="360" r="22" fill="#fff"/>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- 16 — MEETING NOTES -->
+<section class="slide cream">
+  <div class="eyebrow"><span class="num">16</span><span class="txt">Meeting notes</span><span class="act">Act VI · Notes</span></div>
+  <h2>Capture the questions.<br>Keep the discussion trail.</h2>
+  <div class="notes-wrap">
+    <div class="notes-panel">
+      <h3>Question / note</h3>
+      <textarea id="meetingNote" placeholder="Type the question, decision, concern, or follow-up from the meeting…"></textarea>
+      <div class="notes-actions">
+        <button class="btn primary" onclick="submitNote()">Submit to Sheet1</button>
+        <button class="btn secondary" onclick="saveLocalNote()">Save locally</button>
+        <button class="btn secondary" onclick="clearNote()">Clear</button>
+      </div>
+      <div id="noteStatus" class="statusline" style="margin-top:.8rem">Ready.</div>
+    </div>
+  </div>
+</section>
+
+</div>
+
+<!-- BOTTOM CONTROLS -->
+<div class="controls">
+  <button onclick="prev()" aria-label="Previous slide">←</button>
+  <button onclick="openOverview()" aria-label="Slide overview">▦ Overview</button>
+  <button onclick="next()" aria-label="Next slide">→</button>
+  <button onclick="toggleFS()" aria-label="Fullscreen">⛶</button>
+</div>
+<div class="counter" id="counter">1 / 16</div>
+<div class="progress" id="progress" style="width:6.25%"></div>
+
+<!-- OVERVIEW OVERLAY -->
+<div class="overlay" id="overview">
+  <div class="overlay-head">
+    <h2>Presentation overview</h2>
+    <button class="overlay-close" onclick="closeOverview()">Close ✕</button>
+  </div>
+  <div class="toc-grid" id="tocGrid"></div>
+</div>
+
+<!-- KEYBOARD SHORTCUTS -->
+<div class="kbd-overlay" id="kbdOverlay">
+  <div class="kbd-box">
+    <h3>Keyboard shortcuts</h3>
+    <div class="kbd-row"><span>Next / previous slide</span><span class="kbd-key">→ / ←</span></div>
+    <div class="kbd-row"><span>Jump to first / last</span><span class="kbd-key">Home / End</span></div>
+    <div class="kbd-row"><span>Slide overview</span><span class="kbd-key">O</span></div>
+    <div class="kbd-row"><span>Fullscreen</span><span class="kbd-key">F</span></div>
+    <div class="kbd-row"><span>Meeting notes</span><span class="kbd-key">N</span></div>
+    <div class="kbd-row" style="border:0"><span>Close this panel</span><span class="kbd-key">Esc</span></div>
+  </div>
+</div>
+
+<script src="js/aim-presentation.js"></script>
+</body>
+</html>
